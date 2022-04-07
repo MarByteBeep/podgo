@@ -35,7 +35,7 @@ Version comparison - Archive[13] type kImageType_Data, 0x01300000 : Device 0x013
 Version comparison - Archive[14] type kImageType_Data, 0x01300000 : Device 0x01300000
 ```
 
-This served as extra information for decoding the fileformat. I can see that there are 2 chunks/images in the archive. And in total there are 15 sections: 1 code section, 1 boot section and 13 data sections. Each of them has a version code and a device code.
+This served as extra information for decoding the fileformat. I can see that there are 2 chunks/images in the archive. And in total there seem to be 15 archive sections: 1 code section, 1 boot section and 13 data sections. Later however it seems like there are in fact 16 of then. The output also shows a version code and a device code per archive section.
 
 # HXF File format
 
