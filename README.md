@@ -154,7 +154,7 @@ This part still is much WIP. Each section seems to have an id, version numbers, 
 00000004-00000007 4      version: 0x01 30 00 00 (fw v1.30)
 00000008-0000000B 4      I suspect this to be kImageType: kImageType_MainCode = 0x2, kImageType_Boot = 0x1 and kImageType_Data = 0x6
 0000000C-0000000F 4      ?? seems to be 0x00 00 00 04 all the time
-00000010-00000023 14     ??
+00000010-00000023 14     ?? CRCs, keys, timestamps?
 00000024-00000027 4      ?? seems to be 0x56 11 26 03 all the time
 00000028-0000002B 4      ? device version id: seems to be 0x01 30 00 00 (fw v1.30) in case of `kImageType_MainCode` and `kImageType_Data` and `0x01 00 01 61` for `kImageType_Boot`*
 0000002C-0000002F 4      ?? Some CRC?
